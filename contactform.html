@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Submit a Request</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="stick-page">
+
+<header>
+  <div class="header-form">
+    <h1 id="contact-header">Submit a Request</h1>
+  </div>
+  
+</header>
+
+<div class="form-wrapper"> 
+
+  <a href="index.html" class="back-link"> < Back </a> 
+
+  <section class="contact-form">
+
+    <form
+      id="telegramForm"
+      action="http://localhost:3000/send"
+      method="POST"
+      enctype="multipart/form-data"
+    >
+
+      <input
+        type="text"
+        name="name"
+        placeholder="Name"
+        required
+      >
+
+      <input
+        type="tel"
+        name="phone"
+        placeholder="Phone"
+        required
+      >
+
+      <textarea
+        name="message"
+        placeholder="Describe Issue"
+        rows="5"
+      ></textarea>
+
+      <!--<label class="upload-label">
+        Attach Photo
+      </label>
+
+      <input
+        type="file"
+        name="photo"
+        accept="image/*"
+      > -->
+
+      <button type="submit">
+        Send Application
+      </button>
+
+    </form>
+
+    <p id="formStatus"></p>
+
+  </section>
+
+</div>
+
+<footer>
+    &copy; 2025 Prime Sacramento Home Services. All rights are protected by author.
+  </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
