@@ -18,7 +18,7 @@ const phoneInput = document.getElementById("phone");
         }
 
         if (value.length >= 4) {
-            formatted += ") " + value.substring(3, 6);
+            formatted += ")" + value.substring(3, 6);
         }
 
         if (value.length >= 7) {
