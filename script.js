@@ -1,72 +1,29 @@
-/*var swiper = new Swiper('.swiper-container', {
-  loop: true,
-  speed: 1000,
-  parallax: true,
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
-  },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  simulateTouch: true,
-  allowTouchMove: true,
+/*document.getElementById('telegramForm').addEventListener('submit', function() {
+  document.getElementById('formStatus').textContent = 'Отправка...';
 });*/
 
+const phoneInput = document.getElementById("phone");
 
-document.getElementById('telegramForm').addEventListener('submit', function() {
-  document.getElementById('formStatus').textContent = 'Отправка...';
-});
+        phoneInput.addEventListener("input", (e) => {
+        let value = e.target.value.replace(/\D/g, "");
 
-/*
-document.getElementById('telegramForm').addEventListener('submit', function(e) {
-  e.preventDefault();
+        if (value.length > 10) {
+            value = value.slice(0, 10);
+        }
 
-  document.getElementById('formStatus').textContent = 'Отправка...';
+        let formatted = "";
 
-  this.submit(); // ← вот это важно
-});
-*/
+        if (value.length > 0) {
+            formatted = "(" + value.substring(0, 3);
+        }
 
-/*
-document.getElementById('telegramForm').addEventListener('submit', function(e) {
-  e.preventDefault();
+        if (value.length >= 4) {
+            formatted += ") " + value.substring(3, 6);
+        }
 
-  /*
-  const name = this.name.value.trim();
-  const phone = this.phone.value.trim();
-  const message = this.message.value.trim();
+        if (value.length >= 7) {
+            formatted += "-" + value.substring(6, 10);
+        }
 
-  const data = {
-    name,
-    phone,
-    message
-  };
-
-  */
-/*
-  const formData = new FormData(this);
-  
-
-  fetch('https://script.google.com/macros/s/AKfycby16UGOLkVXkpDPhVzD-6YPdpkv4qbGfWhiLpJqFzOzr-aYfaMolnuJrtoea1aQYtAiRw/exec', {
-    method: 'POST',
-    body: formData, //JSON.stringify(data),
-    /*headers: {
-      'Content-Type': 'application/json',
-    }*/
-  /*})
-  .then(response => {
-    if (response.ok) {
-      document.getElementById('formStatus').textContent = 'Заявка отправлена!';
-      //this.reset();
-    } else {
-      document.getElementById('formStatus').textContent = 'Ошибка отправки.';
-    }
-  })
-  .catch(err => {
-    document.getElementById('formStatus').textContent = '⚠️ Не удалось отправить.';
-    console.error(err);
-  });
-});
-*/
+        e.target.value = formatted;
+        });
