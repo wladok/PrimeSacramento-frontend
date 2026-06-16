@@ -456,8 +456,16 @@ footer {
   }
 
   .contact {
-    margin-left: 18%;
-    line-height: 1;
+    flex-direction: column;
+  }
+
+  .contact iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  .contact-info {
+    width: 100%;
   }
 
   /*
