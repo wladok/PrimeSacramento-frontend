@@ -458,6 +458,7 @@ footer {
 
   .contact {
     flex-direction: column;
+    margin: left;
   }
 
   .contact iframe {
