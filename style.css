@@ -458,7 +458,7 @@ footer {
 
   .contact {
     flex-direction: column;
-    margin: left;
+    margin-left: auto;
   }
 
   .contact iframe {
@@ -467,7 +467,12 @@ footer {
   }
 
   .contact-info {
+    font-size: 14px;
     width: 100%;
+  }
+
+  .contact-info h2 {
+    font-size: 22px;
   }
 
   /*
