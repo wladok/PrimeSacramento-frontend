@@ -457,8 +457,8 @@ footer {
   }
 
   .contact {
-    flex-direction: column;
-    margin-left: auto;
+
+    margin: left;
   }
 
   .contact iframe {
