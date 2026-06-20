@@ -488,10 +488,6 @@ a {
     line-height: 1;
   }
 
-  .contact {
-    flex-direction: column;
-    margin: left;
-  }
 
   .contact iframe {
     width: 300px;
