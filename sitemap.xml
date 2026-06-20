@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://primesacramento.com/</loc>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://primesacramento.com/Appliance.html</loc>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://primesacramento.com/PlumbingServices.html</loc>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://primesacramento.com/Flooring.html</loc>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://primesacramento.com/Doors.html</loc>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://primesacramento.com/GeneralHomeRepairs.html</loc>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://primesacramento.com/contactform.html</loc>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://primesacramento.com/PrivacyPolicy.html</loc>
+        <priority>0.4</priority>
+    </url>
+
+    <url>
+        <loc>https://primesacramento.com/AboutUs.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://primesacramento.com/Terms.html</loc>
+        <priority>0.4</priority>
+    </url>
+</urlset>
