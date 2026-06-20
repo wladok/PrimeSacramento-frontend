@@ -197,7 +197,7 @@ a {
 
 .contact {
   max-width: 945px;
-  margin: 0 auto;
+  margin: left;
   
   width: 88%;
   display: flex;
