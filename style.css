@@ -197,7 +197,7 @@ a {
 
 .contact {
   max-width: 945px;
-  margin: left;
+  margin: 0 auto;
   
   width: 88%;
   display: flex;
@@ -449,7 +449,7 @@ footer p a {
 /*//////АДАПТАЦИЯ//////*/
 
 
-/* Телефоны */
+/* Телефоны ADAPTATION */
 @media (max-width: 768px) {
 
   /* Заголовки */
@@ -484,8 +484,22 @@ footer p a {
   }
 
   .contact {
-    margin-left: 18%;
+    margin: left;
     line-height: 1;
+  }
+
+  .contact iframe {
+    width: 300px;
+    height: 300px;
+  }
+
+  .contact-info {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .contact-info h2 {
+    font-size: 22px;
   }
 
   /*
@@ -514,25 +528,7 @@ footer p a {
   footer {
     font-size: 8px;
   }
-
-  .contact {
-
-    margin: left;
-  }
-
-  .contact iframe {
-    width: 300px;
-    height: 300px;
-  }
-
-  .contact-info {
-    font-size: 14px;
-    width: 100%;
-  }
-
-  .contact-info h2 {
-    font-size: 22px;
-  }
+  
 }
 
 /*
