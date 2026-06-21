@@ -28,6 +28,14 @@ button
   padding: 0 20px;
 }
 
+.container p {
+  text-align: justify;
+}
+
+#p-footer {
+  text-align: center;
+}
+
 
 header {
   background-color: #2c3e50;
