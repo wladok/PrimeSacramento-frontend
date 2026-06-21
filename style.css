@@ -490,8 +490,8 @@ a {
 
 
   .contact iframe {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 100%;
   }
 
   .contact-info {
