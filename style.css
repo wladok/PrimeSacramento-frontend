@@ -487,11 +487,12 @@ a {
     width: 84%;
     margin: left;
     line-height: 1;
+    padding: 10px;
   }
 
 
   .contact iframe {
-    width: 700px;
+    width: 450px;
     height: 350px;
   }
 
