@@ -484,6 +484,7 @@ a {
   }
 
   .contact {
+    max-width: 900px;
     margin: left;
     line-height: 1;
   }
