@@ -576,7 +576,8 @@ a {
     width: 95%;
   }
 
-  .service-container service-selects {
+  .service-selects {
+    gap: 30px;
     font-size: 10px;
   }
 
