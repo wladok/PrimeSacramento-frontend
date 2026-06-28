@@ -572,7 +572,13 @@ a {
     font-size: 22px;
   }
 
-  
+  .form-wrapper {
+    width: 95%;
+  }
+
+  .service-container service-selects {
+    font-size: 10px;
+  }
 
   /*
 
