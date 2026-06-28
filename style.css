@@ -318,12 +318,67 @@ a {
 }
 
 .contact-form input,
-.contact-form textarea {
+.contact-form textarea,
+.contact-form select {
   width: 95% !important;
   margin-bottom: 15px;
   padding: 12px;
   border-radius: 5px;
   border: 0.6px solid #727171;
+  background:#f8f6f6;
+}
+
+.service-container {
+  width: 95% !important;
+  background:#f8f6f6;
+  border: 0.6px solid #727171;
+  border-radius: 5px;
+  padding: 15px 12px 3px 12px; 
+  margin-bottom: 15px;
+}
+
+.service-title {
+  margin-bottom: auto;
+}
+
+.service-selects {
+  display:flex;
+  justify-content:space-between;
+  gap:50px;
+  flex-wrap:wrap;
+}
+
+.service-selects select {
+  flex:1;
+  width:50px;
+  height: 50px;
+  border:1px solid #222;
+  border-radius:10px;
+  font-size:16px;
+  color: rgb(90, 86, 86);
+  cursor:pointer;
+  background:white;
+  transition:.2s;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  background-image: url("strelka.png");
+  background-repeat: no-repeat;
+  
+  background-position: right 20px top 53%; 
+  background-size: 16px;
+  padding-right: 20px; 
+}
+
+.service-selects select:hover {
+  border-color:#c0c0c0;
+}
+
+.service-selects select:focus {
+  outline:none;
+  border-color:#c0c0c0;
 }
 
 .contact-form button {
@@ -492,15 +547,18 @@ a {
   }
 
   .contact {
-    width: 84%;
     margin: left;
     line-height: 1;
   }
 
+  .contact {
+    flex-direction: column;
+    margin: left;
+  }
 
   .contact iframe {
-    width: 350px;
-    height: 250px;
+    width: 95%;
+    height: 200px;
   }
 
   .contact-info {
@@ -540,74 +598,5 @@ a {
   }
 
 }
-
-/*
-section {
-  padding: 20px;
-  max-width: 1000px;
-  margin: auto;
-}
-
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 15px;
-}
-
-.gallery img {
-  width: 100%;
-  height: 300px;
-  border-radius: 8px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-}
-
-
-*/
-
-/*.swiper-container {
-  max-width: 800px;
-  height: 400px;
-  margin: 30px auto;
-  overflow: hidden;
-  position: relative; /* 👈 важно! для абсолютного позиционирования стрелок 
-}
-
-.swiper-button-next,
-.swiper-button-prev {
-  color: #2c3e50;          
-  width: 40px;
-  height: 40px;
-  background-color: rgba(0, 0, 0, 0); 
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10;
-}
-
-.swiper-button-next {
-  right: 10px;
-  position: absolute;
-}
-
-.swiper-button-prev {
-  left: 10px;
-  position: absolute;
-}
-
-.swiper-wrapper {
-  display: flex;
-}
-
-.swiper-slide {
-  flex-shrink: 0;
-  width: 90% !important;         
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-} */
-
 
 
