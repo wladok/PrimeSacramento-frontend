@@ -570,6 +570,14 @@ a {
     font-size: 22px;
   }
 
+  .contact-form {
+    width: 95%;
+  }
+
+  .contact-form service-selects {
+    font-size: 10px;
+  }
+
   /*
 
   .general-text a {
