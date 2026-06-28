@@ -16,6 +16,9 @@
 
 <header>
   <div class="header-form">
+    <a href="index.html">
+      
+    </a>
     <h1 id="contact-header">Send a Message</h1>
   </div>
   
@@ -29,6 +32,7 @@
 
     <form
       id="telegramForm"
+      
       enctype="multipart/form-data"
     >
 
@@ -53,7 +57,35 @@
         placeholder="Email Address"
         required
       >
-      
+
+      <label class="service-title">Type of Service</label>
+
+      <div class="service-container">
+        
+          <div class="service-selects">
+
+              <select id="serviceType" name="serviceType" required>
+                  <option value="">Category</option>
+
+                  <option value="General Handyman">General Handyman</option>
+                  <option value="Painting">Painting</option>
+                  <option value="Plumbing">Plumbing</option>
+                  <option value="Electrical">Electrical</option>
+                  <option value="Flooring">Flooring</option>
+                  <option value="Doors & Windows">Doors & Windows</option>
+                  <option value="Appliance Installation">Appliance Installation</option>
+                  <option value="Outdoor">Outdoor</option>
+                  <option value="Other">Other</option>
+              </select>
+
+              <select id="specificService" name="specificService" required>
+                  <option value="">Select Service</option>
+              </select>
+
+          </div>
+
+      </div>
+
       <textarea
         name="message"
         placeholder="Describe Issue"
@@ -66,7 +98,7 @@
 
       <input
         type="file"
-        name="photos"
+        name="photo"
         accept="image/*"
       >
 
