@@ -577,7 +577,7 @@ a {
   }
 
   .service-selects {
-    gap: 30px;
+    gap: 0px;
     font-size: 10px;
   }
 
