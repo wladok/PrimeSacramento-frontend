@@ -542,18 +542,14 @@ a {
   }
 
   .contact {
+    width: 90%;
     margin: left;
     line-height: 1;
   }
 
-  .contact {
-    flex-direction: column;
-    margin: left;
-  }
-
   .contact iframe {
-    width: 95%;
-    height: 200px;
+    width: 400px;
+    height: 300px;
   }
 
   .contact-info {
