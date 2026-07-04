@@ -48,7 +48,7 @@ form.addEventListener("submit", async (e) => {
         const message = await response.text();
 
         if (response.ok) {
-            status.textContent = "✅ Your request has been sent successfully!";
+            status.textContent = "✓ Your request has been sent successfully!";
             status.style.color = "green";
 
             form.reset();
