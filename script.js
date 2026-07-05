@@ -43,8 +43,31 @@ photoInput.addEventListener("change", () => {
 form.addEventListener("submit", async (e) => {
     e.preventDefault();
 
-    status.textContent = "Sending...";
+        function showLoading() {
+
+            status.className = "status loading";
+
+            status.innerHTML = `
+                <span>Sending</span> <span class="status-icon">🔧</span>
+            `;
+
+        }
+
+        function hideLoading(icon, text, color) {
+
+            status.className = "status";
+
+            status.style.color = color;
+
+            status.innerHTML = `
+                <span class="status-icon">${icon}</span>
+                <span>${text}</span>
+            `;
+
+        }
+
     status.style.color = "#444";
+    showLoading();
 
     const formData = new FormData(form);
 
@@ -57,20 +80,28 @@ form.addEventListener("submit", async (e) => {
         const message = await response.text();
 
         if (response.ok) {
-            status.textContent = "✓ Your request has been sent successfully!";
-            status.style.color = "green";
+            hideLoading(
+                "✓",
+                "Your request has been sent successfully!",
+                "green"
+            );
 
             form.reset();
         } else {
-            status.textContent = message;
-            status.style.color = "red";
+            hideLoading(
+                "❌",
+                message,
+                "red"
+            );
         }
 
     } catch (error) {
         console.error(error);
-
-        status.textContent = "Something went wrong. Please try again.";
-        status.style.color = "red";
+        hideLoading(
+            "❌",
+            "Something went wrong. Please try again.",
+            "red"
+        );
     }
 });
 
