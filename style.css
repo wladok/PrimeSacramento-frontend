@@ -3,6 +3,7 @@ html, body {
   margin: 0;
 }
 
+
 body {
   font-family: 'Poppins', sans-serif;
   
@@ -117,6 +118,7 @@ a {
   background-size: cover;
   background-position: center;*/
   z-index: 1;
+
 }
 
 .general-image img {
@@ -131,6 +133,11 @@ a {
   transition: transform 0.6s ease;
 }
 
+/*general-block:hover .general-image {
+  transform: scale(1.05);
+} */
+
+/* направление layout */
 .general-block.left {
   flex-direction: row;
 }
@@ -426,9 +433,17 @@ a {
 
 }
 
+
+
 /*////Services//////*/
 
 
+
+.page-content {
+  max-width: 1200px;
+  margin: 0 10px;
+
+}
 
 .image1-button {
   position: absolute;
@@ -593,12 +608,11 @@ a {
     font-size: 22px;
   }
 
-  .form-wrapper {
-    width: 95%;
+  .contact-form {
+    width: 90%;
   }
 
-  .service-selects {
-    gap: 0px;
+  .contact-form service-selects {
     font-size: 10px;
   }
 
@@ -625,10 +639,85 @@ a {
     font-size: 22px;
   }
 
+  .page-content {
+  max-width: 1200px;
+  margin: 0 3px;
+
+  }
+
   footer {
     font-size: 8px;
   }
 
 }
+
+/*
+section {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+
+*/
+
+/*.swiper-container {
+  max-width: 800px;
+  height: 400px;
+  margin: 30px auto;
+  overflow: hidden;
+  position: relative; /* 👈 важно! для абсолютного позиционирования стрелок 
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #2c3e50;          
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0); 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.swiper-button-next {
+  right: 10px;
+  position: absolute;
+}
+
+.swiper-button-prev {
+  left: 10px;
+  position: absolute;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+
+.swiper-slide {
+  flex-shrink: 0;
+  width: 90% !important;         
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+} */
+
 
 
