@@ -30,6 +30,15 @@ const phoneInput = document.getElementById("phone");
 
 const form = document.getElementById("telegramForm");
 const status = document.getElementById("formStatus");
+const photoInput = document.querySelector('input[name="photos"]');
+
+photoInput.addEventListener("change", () => {
+    if (photoInput.files.length > 5) {
+        alert("You can upload a maximum of 5 photos.");
+
+        photoInput.value = "";
+    }
+});
 
 form.addEventListener("submit", async (e) => {
     e.preventDefault();
@@ -163,4 +172,3 @@ typeSelect.addEventListener("change", ()=>{
     });
 
 });
-
