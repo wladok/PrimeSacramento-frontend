@@ -393,6 +393,38 @@ a {
   transform: translateX(-3px);
 }
 
+.status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    min-height: 28px;
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.status-icon {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.loading .status-icon {
+    animation: wrenchRotate 1s linear infinite;
+}
+
+@keyframes wrenchRotate {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
 
 /*////Services//////*/
 
