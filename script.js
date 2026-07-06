@@ -109,74 +109,68 @@ form.addEventListener("submit", async (e) => {
 
 const services = {
 
-    "General Handyman":[
-        "Furniture Assembly",
-        "Picture Hanging",
-        "Shelving Installation",
+    "General Repairs":[
         "Minor Repairs",
-        "Caulking"
-    ],
-
-    "Painting":[
-        "Interior Painting",
-        "Exterior Painting",
-        "Cabinet Painting",
-        "Fence Painting",
-        "Deck Staining",
-        "Drywall Painting"
+        "Hanging shelves, TVs etc",
+        "Furniture Assembly",
+        "Lock installation and repair",
+        "Painting & Drywall",
+        "Interior Doors"
     ],
 
     "Plumbing":[
-        "Faucet Installation",
-        "Toilet Installation",
+        "Faucet Services",
+        "Toilet Services",
         "Garbage Disposal",
-        "Leak Repair",
-        "Sink Installation",
-        "Shower Head Replacement"
+        "Sink & Drain",
+        "Shower & Bathroom",
+        "Leak Repair"
     ],
 
     "Electrical":[
-        "Light Fixture Installation",
-        "Ceiling Fan Installation",
-        "Outlet Replacement",
-        "Switch Replacement",
-        "Smoke Detector",
-        "TV Mounting"
+        "Outlet & Switch Services",
+        "Lighting Installation",
+        "Ceiling Fan Services",
+        "Home Safety Devices",
+        "Minor Electrical Repairs"
     ],
 
     "Flooring":[
-        "Laminate",
         "Vinyl",
-        "Tile",
-        "Baseboards",
+        "Laminate",
+        "Hardwood",
+        "Flooring/Trim Repairs",
+        "Baseboards & Trim",
         "Carpet Installation"
     ],
 
     "Doors & Windows":[
-        "Door Installation",
+        "Exterior Doors Installation",
         "Door Repair",
         "Window Installation",
         "Window Repair",
-        "Weather Stripping"
+        "Blinds & Window Treatments"
+    ],
+
+    "Outdoor":[
+        "Fence Services",
+        "Deck & Patio",
+        "General Exterior Maintenance",
+        "Assembly Services"
     ],
 
     "Appliance Installation":[
-        "Dishwasher",
-        "Microwave",
-        "Range Hood",
+        "Major Kitchen Appliance Installation",
+        "Washer & Dryer Installation",
+        "Laundry Repairs & Adjustments",
         "Washer",
         "Dryer"
     ],
 
-    "Outdoor":[
-        "Fence Repair",
-        "Gate Repair",
-        "Pressure Washing",
-        "Deck Repair",
-        "Mailbox Installation"
-    ],
-
     "Other":[
+        "HVAC & Climate Appliances",
+        "Kitchen & Home Devices",
+        "Built-in Appliance Services",
         "Other"
     ]
 
