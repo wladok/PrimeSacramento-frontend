@@ -357,7 +357,7 @@ a {
 .service-selects {
   display: flex;
   justify-content: center;
-  gap: 100px;
+  gap: 80px;
   flex-wrap: wrap;
 }
 
@@ -636,6 +636,7 @@ a {
   }
 
   .contact-form service-selects {
+    gap: 40px;
     font-size: 10px;
   }
 
