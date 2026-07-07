@@ -631,8 +631,8 @@ a {
     font-size: 22px;
   }
 
-  .contact-form {
-    width: 82%;
+   .form-wrapper {
+    width: 81%;
   }
 
   .contact-form service-selects {
