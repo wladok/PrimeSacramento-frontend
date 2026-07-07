@@ -635,9 +635,8 @@ a {
     width: 95%;
   }
 
-  .contact-form service-selects {
-    gap: 40px;
-    font-size: 10px;
+  .service-selects {
+    gap: 5px;
   }
 
   /*
