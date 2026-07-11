@@ -3,7 +3,6 @@ html, body {
   margin: 0;
 }
 
-
 body {
   font-family: 'Poppins', sans-serif;
   
@@ -683,10 +682,20 @@ a {
     display: none;
   }
   
+  .advantages {
+    margin: 0 auto;
+    max-width: 768px;
+  }
 
+  .advantage-card h3 {
+    font-size: 16px;
+    /*margin-bottom: 12px;*/
+  }
 
-
-
+  .advantage-card p {
+    line-height: 1.2;
+    font-size: 12px;
+  }
 
   .contact {
     width: 84%;
