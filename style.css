@@ -684,7 +684,7 @@ a {
   
   .advantages {
     margin: 0 auto;
-    max-width: 768px;
+    max-width: 500px;
   }
 
   .advantage-card h3 {
@@ -724,17 +724,6 @@ a {
   .service-selects {
     gap: 5px;
   }
-
-  /*
-
-  .general-text a {
-    font-size: 14px;
-    text-decoration: underline;
-  }
-  .general-text a:hover {
-    text-decoration: none !important;
-  }
-  */
 
   .back-back h1 {
     font-size: 24px;
