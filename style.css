@@ -694,14 +694,12 @@ a {
   }
 
   .advantage-card h3 {
-    font-size: 16px;
-
-    /*margin-bottom: 12px;*/
+    font-size: 18px;
   }
 
   .advantage-card p {
     line-height: 1.2;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .contact {
