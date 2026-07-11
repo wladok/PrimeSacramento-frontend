@@ -703,7 +703,7 @@ a {
   }
 
   .contact {
-    width: 84%;
+    width: 82%;
     margin: left;
     line-height: 1;
   }
@@ -715,7 +715,7 @@ a {
 
   .contact-info {
     font-size: 14px;
-    width: 95%;
+    width: 100%;
   }
 
   .contact-info h2 {
