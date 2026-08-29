@@ -403,6 +403,18 @@ a {
   background:#f8f6f6;
 }
 
+#consent-label {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#consent-label input {
+  width: auto !important;
+}
+
+
+
 .service-container {
   width: 95% !important;
   background:#f8f6f6;
